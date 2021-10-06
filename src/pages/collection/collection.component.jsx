@@ -8,7 +8,7 @@ import { selectCollection } from '../../redux/shop/shop.selectors'
 
 import './collection.styles.scss'
 
-// todo collectionPage звідки приходять пропси? connect?
+
 const CollectionPage = ({collection}) => {
     const { title, items } = collection
     return (
